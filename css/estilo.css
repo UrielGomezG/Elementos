@@ -1,0 +1,42 @@
+.box{
+    margin: 30px;
+    padding: 20px;
+    border: 2px solid red;
+    background-color: lightblue;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    position: static;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.box5{
+    width: auto;
+    height: 100px;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
